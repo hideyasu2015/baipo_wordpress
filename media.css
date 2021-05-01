@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@media (max-width: 768px) {
+  .natus {
+    font-size: 18px;
+  }
+  .amet-text {
+    font-size: 14px;
+  }
+  .img-hours {
+    height: 300px;
+  }
+  .hours-color-blue {
+    height: 300px;
+  }
+  .hours-color-blue .col-md-12 {
+    margin: 0px;
+    width: 90%;
+    padding: 0;
+    margin-top: 50px;
+  }
+  #hours .hours-list .open {
+    margin-left: 0;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  #hours .hours-list .time {
+    margin-left: 0;
+    margin-right: 0px;
+    font-size: 17px;
+  }
+  .pricing {
+    margin: 0 auto;
+  }
+  .our-service {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  .do-img {
+    width: 450px;
+    height: 360px;
+    object-fit: cover;
+  }
+  .icon-news {
+    height: 80px;
+  }
+  .welcome1 {
+    position: absolute;
+    top: 150px;
+  }
+  .welcome2 {
+    position: absolute;
+    top: 220px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-text-par {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    z-index: 10;
+    margin: 0 auto;
+  }
+  .welcome1 {
+    font-size: 20px;
+    color: snow;
+    letter-spacing: 10px;
+  }
+  .welcome2 {
+    font-size: 15px;
+    color: snow;
+    letter-spacing: 10px;
+  }
+  #hours .hours-list .open {
+    margin-right: 0px;
+    font-size: 18px;
+    border-bottom: solid #5feba9 1px;
+  }
+  #hours .hours-list .time {
+    font-size: 13px;
+  }
+  #footer {
+    height: 1200px;
+  }
+  .our-service {
+    margin-top: 0;
+  }
+  .img-gallery {
+    height: auto;
+    margin: 0 auto;
+  }
+  .welcome1 {
+    position: absolute;
+    top: 100px;
+  }
+  .welcome2 {
+    position: absolute;
+    top: 130px;
+  }
+}
+@media (min-width: 40em) {
+  /* カルーセルコンテンツのサイズを大きくする */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
