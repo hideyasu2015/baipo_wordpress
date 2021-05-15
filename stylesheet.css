@@ -1,21 +1,27 @@
 body {
   font-family: "Roboto Slab", serif;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   padding: 0;
 }
+
 li {
   list-style: none;
 }
+
 .relative {
   position: relative;
 }
+
 #wrap {
   overflow: hidden;
 }
+
 /*-------------------------------
             read-more
 -------------------------------*/
@@ -25,6 +31,7 @@ li {
   text-decoration: none;
   border-radius: 2px;
 }
+
 .voice-read-more a {
   width: 100px;
   color: #999999;
@@ -32,6 +39,7 @@ li {
   font-size: 12px;
   padding: 5px 17px;
 }
+
 .amazing-read-more a {
   width: 150px;
   color: #999999;
@@ -39,6 +47,7 @@ li {
   font-size: 15px;
   padding: 5px 17px;
 }
+
 .news-read-more a {
   width: 100px;
   color: #999999;
@@ -46,6 +55,7 @@ li {
   font-size: 12px;
   padding: 5px 17px;
 }
+
 /*-------------------------------
             header
 -------------------------------*/
@@ -54,16 +64,20 @@ li {
   width: 26px;
   margin-right: 12px;
 }
+
 .fa-angle-down {
   margin-left: 8px;
 }
+
 .nav li {
   margin: 0 auto;
   letter-spacing: 2px;
 }
+
 .nav li a {
   color: snow;
 }
+
 /*-------------------------------
             main
 -------------------------------*/
@@ -71,18 +85,21 @@ li {
 #main .carousel-item {
   height: 100vh;
 }
-#main .carousel-item > img {
+
+#main .carousel-item>img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
 }
+
 .top-image1 {
   background-image: url(./01_images/top_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .top-access {
   background-image: url(./01_images/top_1.jpg);
   background-size: cover;
@@ -96,21 +113,25 @@ li {
   background-repeat: no-repeat;
   height: 500px;
 }
+
 .top-image2 {
   background-image: url(./01_images/top_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .top-image3 {
   background-image: url(./01_images/top_3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #main .carousel-control-prev,
 .carousel-control-next {
   background-color: rgba(173, 216, 230, 0);
   border: none;
 }
+
 .welcome1 {
   color: snow;
   letter-spacing: 10px;
@@ -122,6 +143,7 @@ li {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .welcome2 {
   color: snow;
   letter-spacing: 10px;
@@ -133,12 +155,14 @@ li {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 /*-------------------------------
         customersvoice
 -------------------------------*/
 .content-title {
   color: #999999;
 }
+
 .voice-read,
 #customers-voice .col-md-7 {
   margin: 0 auto;
@@ -146,11 +170,13 @@ li {
   background-color: #f7f7f7;
   color: #999999;
 }
+
 .voice-img {
   border-radius: 50%;
   width: 130px;
   height: 130px;
 }
+
 #costumers-voice .carousel-item {
   height: 18rem;
 }
@@ -163,31 +189,37 @@ li {
   height: 300px;
   object-fit: cover;
 }
+
 .do-icon {
   border-radius: 50%;
   width: 120px;
   height: 120px;
 }
+
 .our-service {
   margin-top: 70px;
 }
+
 /*-------------------------------
         Pricing table
 -------------------------------*/
 .back-color {
   background-color: #f7f7f7;
 }
+
 .fa-spa {
   font-size: 60px;
   width: 200px;
   height: 100px;
   color: #add8e6;
 }
+
 .price-back {
   height: 200px;
   padding-top: 40px;
   background-color: rgb(241, 241, 241);
 }
+
 /*-----------------pricing-silver---------------------*/
 .pricing-silver {
   box-sizing: border-box;
@@ -204,37 +236,46 @@ li {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 .t-blue {
   border-right-color: #add8e6;
   border-left-color: #add8e6;
 }
+
 .t-pink {
   border-right-color: #e6adbc;
   border-left-color: #e6adbc;
 }
+
 .t-yellow {
   border-right-color: #e6d8ad;
   border-left-color: #e6d8ad;
 }
+
 /*-----------------price-icon---------------------*/
 
 .price-blue {
   background-color: rgba(173, 216, 230, 0.93);
 }
+
 .price-pink {
   background-color: rgba(230, 173, 188, 0.93);
 }
+
 .price-yellow {
   background-color: rgba(230, 216, 173, 0.93);
 }
+
 /*-----------------Purchase---------------------*/
 .purchase {
   text-align: center;
   padding: 15px 20px;
 }
+
 .purchase p {
   margin-bottom: 0;
 }
+
 .purchase h3 {
   font-size: 18px;
 }
@@ -244,24 +285,29 @@ li {
   background-color: #add8e6;
   color: #ffffff;
 }
+
 .p-pink {
   background-color: #e6adbc;
   color: #ffffff;
 }
+
 .p-yellow {
   background-color: #e6d8ad;
   color: #ffffff;
 }
+
 /*-------------------------------
         amazing-service
 -------------------------------*/
 #amazing-service .col-md-4 {
   padding: 0px;
 }
+
 .img-amazing {
   width: 100%;
   height: 360px;
 }
+
 .amazing-color-blue {
   background-color: rgba(173, 216, 230, 0.93);
   width: 100%;
@@ -269,6 +315,7 @@ li {
   position: absolute;
   top: 0;
 }
+
 .amazing-color-pink {
   background-color: rgba(230, 173, 188, 0.93);
   width: 100%;
@@ -276,6 +323,7 @@ li {
   position: absolute;
   top: 0;
 }
+
 .amazing-color-yellow {
   background-color: rgba(230, 216, 173, 0.93);
   width: 100%;
@@ -283,6 +331,7 @@ li {
   position: absolute;
   top: 0;
 }
+
 .amazing-icon {
   position: absolute;
   top: 60px;
@@ -293,19 +342,23 @@ li {
   height: 80px;
   color: #5feba9;
 }
+
 .amazing-text-group {
   position: absolute;
   top: 120px;
 }
+
 .natus {
   color: snow;
   font-size: 20px;
   width: 100%;
 }
+
 .quasi {
   color: #222222;
   font-size: 13px;
 }
+
 .amet-text {
   margin: 0 auto;
   width: 100%;
@@ -313,12 +366,14 @@ li {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 /*-------------------------------
          hours
 -------------------------------*/
 #hours .col-md-12 {
   padding: 0;
 }
+
 .img-hours {
   background-image: url(./01_images/hours.jpg);
   background-repeat: no-repeat;
@@ -326,6 +381,7 @@ li {
   background-position: top;
   height: 450px;
 }
+
 .hours-color-blue {
   background-color: rgba(178, 230, 173, 0.651);
   width: 50%;
@@ -335,25 +391,31 @@ li {
   right: 0;
   top: 0;
 }
+
 .hours-color-blue .row {
   margin-left: 0px;
 }
+
 .hours-color-blue .col-md-12 {
   margin: 0px;
   width: 90%;
   padding: 0;
   margin-top: 100px;
 }
+
 #hours .hours-list {
   border-bottom: solid #5feba9 1px;
 }
+
 #hours .hours-list .open {
   margin-right: 100px;
 }
+
 #hours .hours-list span {
   margin-top: 70px;
   font-size: 20px;
 }
+
 /*-------------------------------
          our-gallery
 -------------------------------*/
@@ -370,12 +432,15 @@ li {
 .img-news {
   width: 100%;
 }
+
 .news-sub-color {
   color: #999999;
 }
+
 .news-main-color {
   color: #666666;
 }
+
 .view-all a {
   display: block;
   text-align: center;
@@ -389,6 +454,7 @@ li {
   padding: 15px 20px;
   margin: 0 auto;
 }
+
 /*-------------------------------
          footer
 -------------------------------*/
@@ -396,12 +462,14 @@ footer {
   background-color: rgb(34, 34, 34);
   padding-bottom: 100px;
 }
+
 footer li {
   list-style: none;
   border-bottom: dashed 1px rgb(117, 111, 111);
   padding-bottom: 10px;
   width: 70%;
 }
+
 .footer-btn a {
   display: block;
   text-align: center;
@@ -414,12 +482,15 @@ footer li {
   padding: 15px 20px;
   margin: 0;
 }
+
 .footer-tel {
   letter-spacing: 5px;
 }
+
 .location-child {
   font-size: 15px;
 }
+
 .copy {
   color: #999999;
   font-size: 14px;
